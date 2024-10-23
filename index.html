@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="Favicon.ico">
+    <title>AirBoeing</title>
+</head>
+<body>
+    <header class="latete">
+        <!-- Logo et Nav -->
+        <img src="logo.jpg" alt="image1" height="200">
+        <nav>
+        <ul>
+            <li><a href="#index.html" title="Acceuil">Acceuil</a></li>
+            <li><a href="#Contact" title="Contact">Contact</a></li>
+            <li><a href="#Apropos" title="Apropos">A propos</a></li>
+        </ul>
+            <!-- Questions -->
+             <details>
+                    <summary>FAQ Les questions les plus posées içi.</summary>
+                    <p>Que faire quand on a faim dans l'avion?</p>
+                    <p>Comment survivre à un crash d'avion?</p>
+                    <p>La terre est-elle vraiment ronde?</p>
+                    <p>Comment cacher une bombe dans un avion?</p>
+                </details>
+            </nav>
+        </header>
+        <!-- Formulaire -->
+         <form action="text.php" method="post" class="vol" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Réservation du Vol</legend>
+                    <label for="start">Date de Réservation</label>
+                    <input type="date" id="start" name="trip-start" min="2024-10-23" max="2030-12-31" />
+                    <!-- Selection Vol -->
+                     <div>
+                     <label for="Aretour">Aller/Retour</label>
+                     <select name="reservation" id="Aretour">
+                        <option value="choix1">Aller simple</option>
+                        <option value="choix2">Aller/Retour</option>
+                        <option value="choix3">Multidestination</option>
+                    </select>
+                </div>
+                <!-- Selection depart -->
+                 <div>
+                 <label for="aeroport">Départ de</label>
+                 <select name="depart" id="aeroport">
+                        <option value="destination1">Paris-Orly-France</option>
+                        <option value="destination2">Paris-Charles de Gaulle-France</option>
+                        <option value="destination3">Nice-France</option>
+                        <option value="destination4">Marseille-France</option>
+                    </select>
+                </div>
+                <!-- Selection Arriver -->
+                 <div>
+                    <label for="aeroporta">Arrivé à</label>
+                    <select name="arriver" id="aeroporta">
+                        <option value="destination1">Shangai-Chine</option>
+                        <option value="destination2">Tokyo-Japon</option>
+                        <option value="destination3">Moscou-Russie</option>
+                        <option value="destination4">Washington - Etats-Unis</option>
+                    </select>
+                </div>
+        <!-- nombre de resa -->
+         <div>
+            <label for="number">Nombre de Réservation</label>
+            <input type="number" name="quantite" step="1">
+        </div>
+    </form>
+</fieldset>
+<!-- Acceuil -->
+ <section id="index.html">
+    <h1>Bien choisir sa destination pour vivre plus longtemps</h1>
+    <p>Réservez votre billet d'avion au meilleur prix sur plus de 230 destinations. Envolez-vous en toute élégance vers une destination d'<strong>enfer</strong>.</p>
+    <h2>Partir pour ne jamais revenir</h2>
+    <p>Pellentesque fermentum purus eget pulvinar consectetur. Proin gravida tempus sem, in suscipit leo commodo fringilla. Integer lobortis elit sed felis fermentum, nec porta lacus laoreet. Sed non aliquet tortor, sit amet lacinia magna. Maecenas ultricies, lacus id condimentum fringilla, diam metus scelerisque ligula, eget placerat magna sapien id augue. Suspendisse et iaculis tortor. Vivamus nec sapien risus. Fusce convallis, libero at egestas consequat, tortor libero pellentesque dui, a imperdiet ipsum eros vel leo. Cras eget ante viverra, dictum metus ac, tristique magna. Donec non maximus elit, id luctus mi. In sed lacus eu odio blandit ullamcorper a vitae enim.</p>
+    <figure>
+        <!-- Image crash figure -->
+         <img src="Crash.jpg" alt="image3" height="200">
+         <figcaption>Le crash devant la CCI de Bourges</figcaption>
+        </figure>
+        <!-- Image crash figure 2 -->
+         <figure>
+            <img src="Siteducrash.png" alt="image4" usemap="#planmap" height="400">
+            <map name="planmap">
+                <area shape="rect" coords="140,140,200,200" title="içi" href="https://www.google.fr/maps/place/Chambre+de+Commerce+et+D'Industrie+du+Cher/@47.045612,2.3375599,15z/data=!4m6!3m5!1s0x47fa944458a73079:0x4906c87d5e1d7a3c!8m2!3d47.045437!4d2.3368518!16s%2Fg%2F121hf5d6?entry=ttu&g_ep=EgoyMDI0MTAyMC4xIKXMDSoASAFQAw%3D%3D" alt="image2">
+                <figcaption>L'endroit en question</figcaption>
+                <!-- H2 -->
+                 <h2>Tout ce qu'il y a à savoir</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices augue ac sollicitudin tempor. Aliquam ornare velit in arcu scelerisque blandit. Vivamus auctor nisl sit amet velit ultricies, ac tincidunt est consectetur. Donec massa justo, dignissim quis ultrices ullamcorper, rhoncus et eros. Praesent mattis felis sit amet leo tincidunt scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas posuere quis mauris et porta. Quisque cursus tincidunt dolor, ut maximus elit imperdiet non. Aliquam scelerisque tincidunt posuere.
+                    Curabitur non hendrerit risus. Nunc sed laoreet lectus, sit amet iaculis mauris. Sed bibendum convallis magna, consequat scelerisque est imperdiet a. In malesuada cursus erat id maximus. Vivamus et urna augue. Mauris aliquam erat at est condimentum varius. Vivamus scelerisque sit amet augue sit amet sagittis. Nunc id nulla tincidunt, sagittis libero vitae, interdum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse laoreet dolor euismod justo convallis tempus.
+                    Donec congue sodales urna facilisis interdum. Etiam accumsan ac odio dapibus aliquam. Sed rhoncus risus eu vulputate vehicula. Proin bibendum maximus accumsan. Nunc laoreet commodo diam, in gravida turpis consequat id. Integer commodo, arcu eu efficitur laoreet, sapien turpis efficitur quam, sit amet pharetra ex orci vel odio. Duis eleifend dictum interdum. Fusce tempus ultrices cursus. In hac habitasse platea dictumst. Aenean ac consectetur enim. Praesent dignissim leo in odio scelerisque, a tristique neque euismod. Cras tempor ipsum sit amet eros scelerisque, ut laoreet libero bibendum.
+                    Nullam euismod nisi sit amet risus rhoncus rutrum. Morbi vestibulum felis ultrices, tristique nibh id, tincidunt metus. Quisque ut porttitor augue. Aenean sit amet maximus nibh. Cras at turpis nisi. Nam cursus, velit ac cursus imperdiet, magna massa pretium velit, eget consectetur nisi urna ut nisi. Cras porta ipsum mauris, vitae sodales arcu lacinia ut. Ut elit dui, placerat quis libero id, ultrices luctus odio. Nam ligula mi, congue at volutpat a, dictum et risus. Ut semper varius dolor a tincidunt. Donec semper odio eget odio ultricies, et consequat quam auctor. Duis vitae lorem iaculis, condimentum neque maximus, feugiat velit. Curabitur non elit eu magna tempus tristique. In hac habitasse platea dictumst. Fusce nec justo quis mi rutrum cursus ut ut est.</p>
+                </figure>
+            </section>
+            <!-- Contact -->
+             <section id="Apropos">
+                <h3>A propos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices augue ac sollicitudin tempor. Aliquam ornare velit in arcu scelerisque blandit. Vivamus auctor nisl sit amet velit ultricies, ac tincidunt est consectetur. Donec massa justo, dignissim quis ultrices ullamcorper, rhoncus et eros. Praesent mattis felis sit amet leo tincidunt scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas posuere quis mauris et porta. Quisque cursus tincidunt dolor, ut maximus elit imperdiet non. Aliquam scelerisque tincidunt posuere.
+                    Curabitur non hendrerit risus. Nunc sed laoreet lectus, sit amet iaculis mauris. Sed bibendum convallis magna, consequat scelerisque est imperdiet a. In malesuada cursus erat id maximus. Vivamus et urna augue. Mauris aliquam erat at est condimentum varius. Vivamus scelerisque sit amet augue sit amet sagittis. Nunc id nulla tincidunt, sagittis libero vitae, interdum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse laoreet dolor euismod justo convallis tempus.
+                    Donec congue sodales urna facilisis interdum. Etiam accumsan ac odio dapibus aliquam. Sed rhoncus risus eu vulputate vehicula. Proin bibendum maximus accumsan. Nunc laoreet commodo diam, in gravida turpis consequat id. Integer commodo, arcu eu efficitur laoreet, sapien turpis efficitur quam, sit amet pharetra ex orci vel odio. Duis eleifend dictum interdum. Fusce tempus ultrices cursus. In hac habitasse platea dictumst. Aenean ac consectetur enim. Praesent dignissim leo in odio scelerisque, a tristique neque euismod. Cras tempor ipsum sit amet eros scelerisque, ut laoreet libero bibendum.
+                    Nullam euismod nisi sit amet risus rhoncus rutrum. Morbi vestibulum felis ultrices, tristique nibh id, tincidunt metus. Quisque ut porttitor augue. Aenean sit amet maximus nibh. Cras at turpis nisi. Nam cursus, velit ac cursus imperdiet, magna massa pretium velit, eget consectetur nisi urna ut nisi. Cras porta ipsum mauris, vitae sodales arcu lacinia ut. Ut elit dui, placerat quis libero id, ultrices luctus odio. Nam ligula mi, congue at volutpat a, dictum et risus. Ut semper varius dolor a tincidunt. Donec semper odio eget odio ultricies, et consequat quam auctor. Duis vitae lorem iaculis, condimentum neque maximus, feugiat velit. Curabitur non elit eu magna tempus tristique. In hac habitasse platea dictumst. Fusce nec justo quis mi rutrum cursus ut ut est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices augue ac sollicitudin tempor. Aliquam ornare velit in arcu scelerisque blandit. Vivamus auctor nisl sit amet velit ultricies, ac tincidunt est consectetur. Donec massa justo, dignissim quis ultrices ullamcorper, rhoncus et eros. Praesent mattis felis sit amet leo tincidunt scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas posuere quis mauris et porta. Quisque cursus tincidunt dolor, ut maximus elit imperdiet non. Aliquam scelerisque tincidunt posuere.
+                    Curabitur non hendrerit risus. Nunc sed laoreet lectus, sit amet iaculis mauris. Sed bibendum convallis magna, consequat scelerisque est imperdiet a. In malesuada cursus erat id maximus. Vivamus et urna augue. Mauris aliquam erat at est condimentum varius. Vivamus scelerisque sit amet augue sit amet sagittis. Nunc id nulla tincidunt, sagittis libero vitae, interdum quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse laoreet dolor euismod justo convallis tempus.
+                    Donec congue sodales urna facilisis interdum. Etiam accumsan ac odio dapibus aliquam. Sed rhoncus risus eu vulputate vehicula. Proin bibendum maximus accumsan. Nunc laoreet commodo diam, in gravida turpis consequat id. Integer commodo, arcu eu efficitur laoreet, sapien turpis efficitur quam, sit amet pharetra ex orci vel odio. Duis eleifend dictum interdum. Fusce tempus ultrices cursus. In hac habitasse platea dictumst. Aenean ac consectetur enim. Praesent dignissim leo in odio scelerisque, a tristique neque euismod. Cras tempor ipsum sit amet eros scelerisque, ut laoreet libero bibendum.
+                    Nullam euismod nisi sit amet risus rhoncus rutrum. Morbi vestibulum felis ultrices, tristique nibh id, tincidunt metus. Quisque ut porttitor augue. Aenean sit amet maximus nibh. Cras at turpis nisi. Nam cursus, velit ac cursus imperdiet, magna massa pretium velit, eget consectetur nisi urna ut nisi. Cras porta ipsum mauris, vitae sodales arcu lacinia ut. Ut elit dui, placerat quis libero id, ultrices luctus odio. Nam ligula mi, congue at volutpat a, dictum et risus. Ut semper varius dolor a tincidunt. Donec semper odio eget odio ultricies, et consequat quam auctor. Duis vitae lorem iaculis, condimentum neque maximus, feugiat velit. Curabitur non elit eu magna tempus tristique. In hac habitasse platea dictumst. Fusce nec justo quis mi rutrum cursus ut ut est.</p>
+                </section>
+                <table class="lebody"> 
+                    <tr>
+                        <th>Nom du membre</th>
+                        <th>Poste occupé</th>
+                        <th>Date d'embauche</th>
+                    </tr>
+                    <tr>
+                        <td>Ilan</td>
+                        <td>Developpeur Web CCC</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Tanguy</td>
+                        <td>Developpeur Web CC</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Irman</td>
+                        <td>Female de ménage CCC+++</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Stéphane</td>
+                        <td>Developpeur Web</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Hugo</td>
+                        <td>Developpeur Web C--</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Imane</td>
+                        <td>Developpeur Web</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <colgroup>
+                        <col span="1" style="background-color:blanchedalmond">
+                        <col span="1" style="background-color:antiquewhite">
+                        <col span="1" style="background-color:beige">
+                    </colgroup >
+                </table>
+            </body>
+            <!-- Footer Contact-->
+             <footer>
+                <h2>Contact</h2>
+                <section id="Contact"></section>
+                <address>
+                     <p>AirBoeing</p>
+                     <p>777 piste des crash d'Avion 77 777</p>
+                     <p>Tel : <a href="112,911">112,911</a></p>
+                     <p>E-mail : <a href="mailto:contact@Airboeing.com">contact@airboeing.com</a></p>
+                     <p>Instagram : <a href="https://www.instagram.com/airfrance/"></a></p>
+                     <img src="insta.png" alt="image2" usemap="#planmap" height="35">
+                     <map name="planmap">
+                        <area shape="rect" coords="0,0,100,100" href="https://www.instagram.com/airfrance/" alt="image2">
+                    </address>
+                    <!-- Mentions légales -->
+                     <p><a href="https://wwws.airfrance.fr/information/legal"> &copy;Mentions légales de l'air</a></p>
+                    </footer>
+                    </html>
